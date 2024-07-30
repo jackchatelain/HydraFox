@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+#urlbar-background,
+#searchbar,
+#tracking-protection-icon-container,
+#identity-icon-box,
+#identity-permission-box,
+#notification-popup-box,
+.urlbar-page-action,
+#urlbar-go-button,
+.search-go-button {
+border-radius: 8px !important;
+}
+#urlbar[open] & * {
+  border-radius: 10px !important;
+}
+#urlbar[open] #urlbar-background {
+border-radius: 10px !important;
+} 
+#nav-bar .toolbarbutton-1 {
+    border-radius: 10px !important;
+  }
+}
+.tab-background {
+  border-radius: 10px !important;
+}
