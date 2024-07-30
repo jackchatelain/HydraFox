@@ -10,6 +10,6 @@ Contains:
   - Increases speed
   - Removes annoyances like Pocket
   - Improves privacy & disables all telemetry
-  - Relax some of the strict privacy settings in Librewolf
+  - Relaxes some of the strict privacy settings in Librewolf
   - Adds features like tab card previews and profile switching
   - Adds support for more web standards, like JPEG-XL & WebGPU
