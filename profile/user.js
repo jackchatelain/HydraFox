@@ -116,7 +116,7 @@ user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
 user_pref("media.peerconnection.ice.default_address_only", true);
 
 /** SAFE BROWSING ***/
-user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+user_pref("browser.safebrowsing.downloads.remote.enabled", true);
 
 /** MOZILLA ***/
 user_pref("permissions.default.desktop-notification", 2);
