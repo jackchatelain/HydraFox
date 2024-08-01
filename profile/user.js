@@ -381,6 +381,7 @@ user_pref("floorp.browser.sidebar.useIconProvider", "duckduckgo")
 user_pref("floorp.browser.workspace.showWorkspaceName", false)
 user_pref("floorp.browser.workspaces.enabled", true)
 user_pref("floorp.download.notification", 4)
+user_pref("floorp.user.js.customize", "") /* Prevent these tweaks from being automatically overridden */
 
 /*** WATERFOX ***/
 user_pref("browser.theme.enableWaterfoxCustomizations", 0)
