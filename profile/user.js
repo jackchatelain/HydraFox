@@ -80,7 +80,8 @@ user_pref("privacy.history.custom", true);
 /** SEARCH / URL BAR ***/
 user_pref("browser.search.separatePrivateDefault.ui.enabled", true);
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
-user_pref("browser.search.suggest.enabled", false);
+user_pref("browser.search.suggest.enabled", true);
+user_pref("browser.search.suggest.enabled.private", false)
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", false);
 user_pref("browser.formfill.enable", false);
@@ -171,7 +172,7 @@ user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", fa
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("browser.tabs.tabmanager.enabled", false);
-user_pref("browser.aboutConfig.showWarning", true);
+user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.aboutwelcome.enabled", false);
 
 /** THEME ADJUSTMENTS ***/
@@ -236,6 +237,7 @@ user_pref("browser.urlbar.showSearchTerms.featureGate", true);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", true);
 user_pref("browser.ml.chat.hideLocalhost", false)
 /** user_pref("browser.tabs.tooltipsShowPidAndActiveness", true) ***/
+user_pref("browser.bookmarks.addedImportButton", true)
 
 /** IMPROVE SPEED ***/
 user_pref("gfx.webrender.all", true);
@@ -262,11 +264,6 @@ user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("toolkit.telemetry.enabled", false);
 user_pref("toolkit.telemetry.server", "data:;");
 
-/** SACRIFICE PRIVACY FOR CONVENIENCE ***/
-user_pref("privacy.resistFingerprinting", false);
-user_pref("webgl.disabled", false)
-user_pref("security.OCSP.require", false)
-
 /** IMPROVE SECURITY ***/
 user_pref("dom.security.https_only_mode", true);
 user_pref("security.tls.enable_kyber", true);
@@ -287,6 +284,41 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.tabs.firefox-view", false);
 user_pref("browser.urlbar.suggest.pocket", false);
 user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
+
+/** IMPROVE SPEED ***/
+user_pref("dom.mutation-events.cssom.disabled", true)
+user_pref("nglayout.initialpaint.delay", 0)
+user_pref("nglayout.initialpaint.delay_in_oopif", 0)
+user_pref("browser.urlbar.delay", 0)
+
+/** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
+user_pref("privacy.resistFingerprinting", false);
+user_pref("webgl.disabled", false)
+user_pref("security.OCSP.require", false)
+
+/*** FLOORP ***/
+user_pref("floorp.browser.sidebar.useIconProvider", "duckduckgo")
+user_pref("floorp.browser.workspace.showWorkspaceName", false)
+user_pref("floorp.browser.workspaces.enabled", true)
+user_pref("floorp.download.notification", 4)
+
+/*** WATERFOX ***/
+user_pref("browser.theme.enableWaterfoxCustomizations", 0)
+user_pref("userChrome.autohide.forward_button", true)
+user_pref("userChrome.hidden.bookmarkbar_label", true)
+user_pref("userChrome.icon.global_menu.mac", true)
+user_pref("userChrome.padding.drag_space", true)
+user_pref("userChrome.panel.full_width_separator", true)
+user_pref("userChrome.panel.remove_strip", true)
+user_pref("userChrome.rounding.square_tab", false)
+user_pref("userChrome.tab.bottom_rounded_corner", true)
+user_pref("userChrome.tab.photon_like_contextline", false)
+user_pref("userChrome.tab.squareTabCorners", false)
+user_pref("userChrome.theme.transparent.menu", true)
+user_pref("userChrome.theme.transparent.panel", true)
+
+/*** GNU ICECAT ***/
+user_pref("browser.tabs.icecat-view", false)
 
 /** OTHER ***/
 user_pref("browser.translations.enable", false); /* Disable Firefox translation in favor of translate extension */
@@ -311,3 +343,5 @@ user_pref("network.dns.ipv4OnlyDomains", "ipv4.example.com")
 user_pref("network.http.http3.enable", true)
 user_pref("font.default.x-western", "sans-serif")
 user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]')
+user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org") /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
+user_pref("widget.macos.native-context-menus", true) /* Set to false if using a userChrome.css theme that changes context menus */
