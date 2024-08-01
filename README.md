@@ -1,7 +1,9 @@
 # HydraFox
+
 Make Firefox (or any Firefox-based browser) amazing.
 
 ## Features
+
 - Minor CSS adjustments for a more modern experience
 - Preinstalled essential extensions
   - uBlock Origin
@@ -9,16 +11,20 @@ Make Firefox (or any Firefox-based browser) amazing.
   - Improves speed
   - Removes annoyances like Pocket
   - Improves privacy & disables all telemetry
-  - Relaxes some of the strict privacy settings in Librewolf
+  - Relaxes some of the strict privacy settings in LibreWolf
   - Adds features like tab card previews and profile switching
   - Adds support for more web standards, like JPEG-XL & WebGPU
 
 ## Compatibility
+
 ### OS
+
 - [X] MacOS
 - [X] Linux (Untested)
 - [X] Windows (Untested)
+
 ### Browser
+
 - [X] Firefox
 - [X] Firefox Developer Edition
 - [X] Floorp
@@ -31,6 +37,7 @@ Make Firefox (or any Firefox-based browser) amazing.
 - [ ] Thunderbird
 
 ## Installation
+
 1. Clone this repo using the green Code button or `git clone https://github.com/jackchatelain/HydraFox`
 2. Go to `about:profiles` and create a new profile
 3. Open the new profile folder in your file explorer of choice
