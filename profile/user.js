@@ -222,6 +222,69 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
  * END: BETTERFOX                                                           *
 ****************************************************************************/
 
+/*** TWEAKS FROM FFPROFILE.COM ***/
+
+user_pref("beacon.enabled", false);
+user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
+user_pref("browser.disableResetPrompt", true);
+user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
+user_pref("browser.newtabpage.enhanced", false);
+user_pref("browser.newtabpage.introShown", false);
+user_pref("browser.selfsupport.url", "");
+user_pref("browser.send_pings", false);
+user_pref("browser.sessionstore.privacy_level", 0);
+user_pref("browser.startup.homepage_override.mstone", "ignore");
+user_pref("browser.urlbar.groupLabels.enabled", false);
+user_pref("browser.urlbar.quicksuggest.enabled", false);
+user_pref("browser.urlbar.speculativeConnect.enabled", false);
+user_pref("datareporting.healthreport.service.enabled", false);
+user_pref("device.sensors.ambientLight.enabled", false);
+user_pref("device.sensors.enabled", false);
+user_pref("device.sensors.motion.enabled", false);
+user_pref("device.sensors.orientation.enabled", false);
+user_pref("device.sensors.proximity.enabled", false);
+user_pref("dom.battery.enabled", false);
+user_pref("dom.private-attribution.submission.enabled", false);
+user_pref("dom.security.https_only_mode", true);
+user_pref("dom.security.https_only_mode_ever_enabled", true);
+user_pref("experiments.activeExperiment", false);
+user_pref("experiments.enabled", false);
+user_pref("experiments.manifest.uri", "");
+user_pref("experiments.supported", false);
+user_pref("extensions.getAddons.cache.enabled", false);
+user_pref("extensions.greasemonkey.stats.optedin", false);
+user_pref("extensions.greasemonkey.stats.url", "");
+user_pref("extensions.shield-recipe-client.api_url", "");
+user_pref("extensions.shield-recipe-client.enabled", false);
+user_pref("extensions.webservice.discoverURL", "");
+user_pref("media.autoplay.default", 0);
+user_pref("media.autoplay.enabled", true);
+user_pref("network.allow-experiments", false);
+user_pref("network.http.referer.spoofSource", true);
+user_pref("network.http.speculative-parallel-limit", 0);
+user_pref("privacy.donottrackheader.value", 1);
+user_pref("privacy.query_stripping", true);
+user_pref("privacy.trackingprotection.cryptomining.enabled", true);
+user_pref("privacy.trackingprotection.enabled", true);
+user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
+user_pref("privacy.trackingprotection.pbmode.enabled", true);
+user_pref("privacy.usercontext.about_newtab_segregation.enabled", true);
+user_pref("security.ssl.disable_session_identifiers", true);
+user_pref("services.sync.prefs.sync.browser.newtabpage.activity-stream.showSponsoredTopSite", false);
+user_pref("signon.autofillForms", false);
+user_pref("toolkit.telemetry.cachedClientID", "");
+user_pref("toolkit.telemetry.hybridContent.enabled", false);
+user_pref("toolkit.telemetry.prompted", 2);
+user_pref("toolkit.telemetry.rejected", true);
+user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
+user_pref("toolkit.telemetry.shutdownPingSender.enabled", false);
+user_pref("toolkit.telemetry.unified", false);
+user_pref("toolkit.telemetry.unifiedIsOptIn", false);
+user_pref("toolkit.telemetry.updatePing.enabled", false);
+user_pref("webgl.renderer-string-override", " ");
+user_pref("webgl.vendor-string-override", " ");
+
+
 /****************************************************************************
  * HYDRAFOX ADDITIONAL TWEAKS                                               *
 ****************************************************************************/
@@ -243,31 +306,30 @@ user_pref("browser.bookmarks.addedImportButton", true)
 user_pref("gfx.webrender.all", true);
 user_pref("gfx.webrender.compositor", true);
 user_pref("gfx.canvas.accelerated", true);
+user_pref("dom.mutation-events.cssom.disabled", true)
+user_pref("nglayout.initialpaint.delay", 0)
+user_pref("nglayout.initialpaint.delay_in_oopif", 0)
+user_pref("browser.urlbar.delay", 0)
 
 /** IMPROVE PRIVACY ***/
 user_pref("privacy.donottrackheader.enabled", true);
-user_pref("privacy.globalprivacycontrol.enabled", true);
 user_pref("privacy.fingerprintingProtection", true);
 user_pref("privacy.bounceTrackingProtection.enabled", true);
 user_pref("privacy.purge_trackers.enabled", true);
 user_pref("privacy.query_stripping.enabled", true);
-user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
-user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("network.trr.custom_uri", "https://dns.nextdns.io/");
 user_pref("network.trr.uri", "https://dns.nextdns.io/");
 user_pref("network.trr.mode", 2);
 user_pref("network.cookie.thirdparty.nonsecureSessionOnly", true);
 user_pref("network.cookie.thirdparty.sessionOnly", true);
 user_pref("privacy.trackingprotection.emailtracking.enabled", true);
-user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("toolkit.telemetry.enabled", false);
-user_pref("toolkit.telemetry.server", "data:;");
+// user_pref("media.gmp-widevinecdm.enabled", false);
+user_pref("browser.urlbar.quicksuggest.dataCollection.enabled", false)
 
 /** IMPROVE SECURITY ***/
-user_pref("dom.security.https_only_mode", true);
 user_pref("security.tls.enable_kyber", true);
-user_pref("network.cookie.sameSite.noneRequiresSecure", true);
 
 /** REMOVE ANNOYANCES ***/
 user_pref("browser.contentblocking.report.hide_vpn_banner", true);
@@ -275,21 +337,39 @@ user_pref("browser.contentblocking.report.show_mobile_app", false);
 user_pref("browser.promo.cookiebanners.enabled", false);
 user_pref("browser.promo.focus.enabled", false);
 user_pref("browser.vpn_promo.enabled", false);
-user_pref("browser.preferences.moreFromMozilla", false);
-user_pref("browser.contentblocking.report.show_mobile_app", false);
-user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
-user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.tabs.firefox-view", false);
 user_pref("browser.urlbar.suggest.pocket", false);
-user_pref("browser.urlbar.suggest.quicksuggest.sponsored", false);
 
-/** IMPROVE SPEED ***/
-user_pref("dom.mutation-events.cssom.disabled", true)
-user_pref("nglayout.initialpaint.delay", 0)
-user_pref("nglayout.initialpaint.delay_in_oopif", 0)
-user_pref("browser.urlbar.delay", 0)
+/*** DEVELOPMENT ***/
+user_pref("devtools.command-button-measure.enabled", true)
+user_pref("devtools.command-button-rulers.enabled", true)
+user_pref("devtools.command-button-screenshot.enabled", true)
+user_pref("devtools.inspector.showUserAgentStyles", false)
+user_pref("devtools.dom.enabled", true)
+
+/** OTHER ***/
+user_pref("browser.translations.enable", false); /* Disable Firefox translation in favor of translate extension */
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); /* Allow dark reader on addons.mozilla.org */
+user_pref("extensions.webextensions.restrictedDomains", accounts-static.cdn.mozilla.net,addons.cdn.mozilla.net,api.accounts.firefox.com,content.cdn.zilla.net,discovery.addons.mozilla.org,install.mozilla.org,oauth.accounts.firefox.com,profile.accounts.firefox.com,sync.services.mozilla.com); /* Allow dark reader on some mozilla sites */
+user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 500);
+user_pref("browser.urlbar.trimHttps", true);
+user_pref("network.cookie.cookieBehavior.optInPartitioning", true);
+user_pref("network.dns.preferIPv6", true);
+user_pref("privacy.userContext.enabled", true)
+user_pref("privacy.userContext.ui.enabled", true)
+user_pref("privacy.reduceTimerPrecision", true)
+user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false)
+user_pref("dom.webgpu.enabled", true)
+user_pref("identity.fxaccounts.enabled", true)
+user_pref("network.dns.disableIPv6", false)
+user_pref("network.dns.ipv4OnlyDomains", "ipv4.example.com")
+user_pref("network.http.http3.enable", true)
+user_pref("font.default.x-western", "sans-serif")
+user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]')
+user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org") /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
+user_pref("widget.macos.native-context-menus", true) /* Set to false if using a userChrome.css theme that changes context menus */
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
 user_pref("privacy.resistFingerprinting", false);
@@ -319,29 +399,3 @@ user_pref("userChrome.theme.transparent.panel", true)
 
 /*** GNU ICECAT ***/
 user_pref("browser.tabs.icecat-view", false)
-
-/** OTHER ***/
-user_pref("browser.translations.enable", false); /* Disable Firefox translation in favor of translate extension */
-user_pref("browser.discovery.enabled", false);
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); /* Allow dark reader on addons.mozilla.org */
-user_pref("extensions.webextensions.restrictedDomains", accounts-static.cdn.mozilla.net,addons.cdn.mozilla.net,api.accounts.firefox.com,content.cdn.zilla.net,discovery.addons.mozilla.org,install.mozilla.org,oauth.accounts.firefox.com,profile.accounts.firefox.com,sync.services.mozilla.com); /* Allow dark reader on some mozilla sites */
-user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 500);
-user_pref("browser.urlbar.trimHttps", true);
-user_pref("network.cookie.cookieBehavior.optInPartitioning", true);
-user_pref("network.dns.preferIPv6", true);
-user_pref("app.shield.optoutstudies.enabled", false);
-user_pref("media.peerconnection.ice.default_address_only", true);
-user_pref("privacy.userContext.enabled", true)
-user_pref("privacy.userContext.ui.enabled", true)
-user_pref("privacy.reduceTimerPrecision", true)
-user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false)
-user_pref("dom.webgpu.enabled", true)
-user_pref("identity.fxaccounts.enabled", true)
-user_pref("network.dns.disableIPv6", false)
-user_pref("network.dns.disableIPv6", false)
-user_pref("network.dns.ipv4OnlyDomains", "ipv4.example.com")
-user_pref("network.http.http3.enable", true)
-user_pref("font.default.x-western", "sans-serif")
-user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]')
-user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org") /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
-user_pref("widget.macos.native-context-menus", true) /* Set to false if using a userChrome.css theme that changes context menus */
