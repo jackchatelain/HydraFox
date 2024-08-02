@@ -33,13 +33,15 @@ Make Firefox (or any Firefox-based browser) amazing.
 - [X] Ghostery Private Browser
 - [X] GNU IceCat
 - [X] FireDragon (Untested)
+- [X] Midori (Untested)
 - [ ] Pre-Firefox Quantum forks like Pale Moon and Basilisk
 - [ ] Thunderbird
 
 ## Installation
 
-1. Clone this repo using the green Code button or `git clone https://github.com/jackchatelain/HydraFox`
-2. Go to `about:profiles` and create a new profile
-3. Open the new profile folder in your file explorer of choice
-4. Drag the contents of the `profile` folder from the cloned repo into the profile folder
+1. Clone this repo using the green Code button or `git clone https://github.com/jackchatelain/HydraFox`.
+2. Go to `about:profiles` and create a new profile.
+3. Open the new profile folder in your file explorer of choice.
+4. Drag the contents of the `profile` folder from the cloned repo into the profile folder.
 5. Go back to `about:profiles`, set the new profile as default if it isn't already, and then launch it!
+6. OPTIONAL: Import each settings file from the `Extension settings` folder into your extensions, skipping any for extensions you don't use.
