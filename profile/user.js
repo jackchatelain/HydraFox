@@ -357,46 +357,47 @@ user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 500);
 user_pref("browser.urlbar.trimHttps", true);
 user_pref("network.cookie.cookieBehavior.optInPartitioning", true);
 user_pref("network.dns.preferIPv6", true);
-user_pref("privacy.userContext.enabled", true)
-user_pref("privacy.userContext.ui.enabled", true)
-user_pref("privacy.reduceTimerPrecision", true)
-user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false)
-user_pref("dom.webgpu.enabled", true)
-user_pref("identity.fxaccounts.enabled", true)
-user_pref("network.dns.disableIPv6", false)
-user_pref("network.dns.ipv4OnlyDomains", "ipv4.example.com")
-user_pref("network.http.http3.enable", true)
-user_pref("font.default.x-western", "sans-serif")
-user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]')
-user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org") /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
-user_pref("widget.macos.native-context-menus", true) /* Set to false if using a userChrome.css theme that changes context menus */
+user_pref("privacy.userContext.enabled", true);
+user_pref("privacy.userContext.ui.enabled", true);
+user_pref("privacy.reduceTimerPrecision", true);
+user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false);
+user_pref("dom.webgpu.enabled", true);
+user_pref("identity.fxaccounts.enabled", true);
+user_pref("network.dns.disableIPv6", false);
+user_pref("network.dns.ipv4OnlyDomains", "ipv4.example.com");
+user_pref("network.http.http3.enable", true);
+user_pref("font.default.x-western", "sans-serif");
+user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Google","uri":"https://dns.google/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]');
+user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org"); /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
+user_pref("widget.macos.native-context-menus", true); /* Set to false if using a userChrome.css theme that changes context menus */
+user_pref("hydrafox.status", "present");
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
 user_pref("privacy.resistFingerprinting", false);
-user_pref("webgl.disabled", false)
-user_pref("security.OCSP.require", false)
+user_pref("webgl.disabled", false);
+user_pref("security.OCSP.require", false);
 
 /*** FLOORP ***/
-user_pref("floorp.browser.sidebar.useIconProvider", "duckduckgo")
-user_pref("floorp.browser.workspace.showWorkspaceName", false)
-user_pref("floorp.browser.workspaces.enabled", true)
-user_pref("floorp.download.notification", 4)
-user_pref("floorp.user.js.customize", "") /* Prevent these tweaks from being automatically overridden */
+user_pref("floorp.browser.sidebar.useIconProvider", "duckduckgo");
+user_pref("floorp.browser.workspace.showWorkspaceName", false);
+user_pref("floorp.browser.workspaces.enabled", true);
+user_pref("floorp.download.notification", 4);
+user_pref("floorp.user.js.customize", ""); /* Prevent these tweaks from being automatically overridden */
 
 /*** WATERFOX ***/
-user_pref("browser.theme.enableWaterfoxCustomizations", 0)
-user_pref("userChrome.autohide.forward_button", true)
-user_pref("userChrome.hidden.bookmarkbar_label", true)
-user_pref("userChrome.icon.global_menu.mac", true)
-user_pref("userChrome.padding.drag_space", true)
-user_pref("userChrome.panel.full_width_separator", true)
-user_pref("userChrome.panel.remove_strip", true)
-user_pref("userChrome.rounding.square_tab", false)
-user_pref("userChrome.tab.bottom_rounded_corner", true)
-user_pref("userChrome.tab.photon_like_contextline", false)
-user_pref("userChrome.tab.squareTabCorners", false)
-user_pref("userChrome.theme.transparent.menu", true)
-user_pref("userChrome.theme.transparent.panel", true)
+user_pref("browser.theme.enableWaterfoxCustomizations", 0);
+user_pref("userChrome.autohide.forward_button", true);
+user_pref("userChrome.hidden.bookmarkbar_label", true);
+user_pref("userChrome.icon.global_menu.mac", true);
+user_pref("userChrome.padding.drag_space", true);
+user_pref("userChrome.panel.full_width_separator", true);
+user_pref("userChrome.panel.remove_strip", true);
+user_pref("userChrome.rounding.square_tab", false);
+user_pref("userChrome.tab.bottom_rounded_corner", true);
+user_pref("userChrome.tab.photon_like_contextline", false);
+user_pref("userChrome.tab.squareTabCorners", false);
+user_pref("userChrome.theme.transparent.menu", true);
+user_pref("userChrome.theme.transparent.panel", true);
 
 /*** GNU ICECAT ***/
-user_pref("browser.tabs.icecat-view", false)
+user_pref("browser.tabs.icecat-view", false);
