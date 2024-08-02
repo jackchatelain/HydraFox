@@ -9,7 +9,7 @@ Make Firefox (or any Firefox-based browser) amazing.
   - uBlock Origin
 - user.js tweaks based on [Betterfox](https://github.com/yokoffing/Betterfox) and [Firefox Profilemaker](https://ffprofile.com)
   - Improves speed
-  - Removes annoyances like Pocket
+  - Removes annoyances like Pocket (If you want something like Pocket I recommend [Omnivore](https://omnivore.app/))
   - Improves privacy & disables all telemetry
   - Relaxes some of the strict privacy settings in LibreWolf
   - Adds features like tab card previews and profile switching
