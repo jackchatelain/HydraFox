@@ -20,7 +20,7 @@ Make Firefox (or any Firefox-based browser) amazing.
 ### OS
 
 - [X] MacOS
-- [X] Linux (Untested)
+- [X] Linux
 - [X] Windows (Untested)
 
 ### Browser
