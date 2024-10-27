@@ -370,6 +370,7 @@ user_pref("font.default.x-western", "sans-serif");
 user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Google","uri":"https://dns.google/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]');
 user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org"); /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
 user_pref("widget.macos.native-context-menus", true); /* Set to false if using a userChrome.css theme that changes context menus */
+user_pref("widget.gtk.rounded-bottom-corners.enabled", true);
 user_pref("hydrafox.status", "present");
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
