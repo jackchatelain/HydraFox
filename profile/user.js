@@ -206,7 +206,7 @@ user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("extensions.pocket.enabled", false);
 
 /** DOWNLOADS ***/
-user_pref("browser.download.always_ask_before_handling_new_types", true);
+user_pref("browser.download.always_ask_before_handling_new_types", false);
 user_pref("browser.download.manager.addToRecentDocs", false);
 
 /** PDF ***/
@@ -353,7 +353,7 @@ user_pref("devtools.dom.enabled", true)
 user_pref("browser.translations.enable", false); /* Disable Firefox translation in favor of translate extension */
 user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); /* Allow dark reader on addons.mozilla.org */
 user_pref("extensions.webextensions.restrictedDomains", accounts-static.cdn.mozilla.net,addons.cdn.mozilla.net,api.accounts.firefox.com,content.cdn.zilla.net,discovery.addons.mozilla.org,install.mozilla.org,oauth.accounts.firefox.com,profile.accounts.firefox.com,sync.services.mozilla.com); /* Allow dark reader on some mozilla sites */
-user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 500);
+user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 400);
 user_pref("browser.urlbar.trimHttps", true);
 user_pref("network.cookie.cookieBehavior.optInPartitioning", true);
 user_pref("network.dns.preferIPv6", true);
@@ -370,8 +370,10 @@ user_pref("font.default.x-western", "sans-serif");
 user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Google","uri":"https://dns.google/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]');
 user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org"); /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
 user_pref("widget.macos.native-context-menus", true); /* Set to false if using a userChrome.css theme that changes context menus */
-user_pref("widget.gtk.rounded-bottom-corners.enabled", true);
+
+/** HYDRAFOX STATUS ***/
 user_pref("hydrafox.status", "present");
+user_pref("hydrafox.version", "1.1");
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
 user_pref("privacy.resistFingerprinting", false);
