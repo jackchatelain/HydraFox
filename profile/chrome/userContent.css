@@ -48,5 +48,5 @@ richlistitem.category, search-textbox#searchInput, button.accessory-button, menu
 }
 
 vbox.sidebar-footer-list::after {
-    content: "Hydrafox Firefox config v1.1"
+    content: "Hydrafox Firefox config v1.1.1"
 }

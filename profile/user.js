@@ -320,6 +320,7 @@ user_pref("media.av1.new-thread-count-strategy", true)
 user_pref("media.gmp.decoder.multithreaded", true)
 user_pref("media.gmp.encoder.multithreaded", true)
 user_pref("dom.mutation_events.enabled", false)
+user_pref("browser.urlbar.quicksuggest.rustEnabled", true)
 
 /** IMPROVE PRIVACY ***/
 user_pref("privacy.donottrackheader.enabled", true);
@@ -356,6 +357,8 @@ user_pref("signon.firefoxRelay.base_url", "data:;")
 user_pref("signon.firefoxRelay.feature", "unavailable")
 user_pref("identity.fxaccounts.toolbar.enabled", false)
 user_pref("extensions.pocket.showHome", false)
+user_pref("browser.urlbar.suggest.fakespot", false)
+user_pref("browser.urlbar.suggest.yelp", false)
 
 /*** DEVELOPMENT ***/
 user_pref("devtools.command-button-measure.enabled", true)
@@ -391,7 +394,7 @@ user_pref("threads.lower_mainthread_priority_in_background.enabled", true)
 
 /** HYDRAFOX STATUS ***/
 user_pref("hydrafox.status", "present");
-user_pref("hydrafox.version", "1.1");
+user_pref("hydrafox.version", "1.1.1");
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
 user_pref("privacy.resistFingerprinting", false);
