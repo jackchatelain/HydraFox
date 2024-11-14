@@ -299,17 +299,27 @@ user_pref("browser.urlbar.clipboard.featureGate", true);
 user_pref("browser.urlbar.showSearchTerms.featureGate", true);
 user_pref("browser.urlbar.suggest.quicksuggest.nonsponsored", true);
 user_pref("browser.ml.chat.hideLocalhost", false)
+user_pref("browser.ml.chat.enabled", true)
+user_pref("browser.ml.chat.provider", "https://huggingface.co/chat")
+user_pref("browser.ml.chat.shortcuts", false)
 /** user_pref("browser.tabs.tooltipsShowPidAndActiveness", true) ***/
 user_pref("browser.bookmarks.addedImportButton", true)
+user_pref("privacy.webrtc.globalMuteToggles", true)
 
 /** IMPROVE SPEED ***/
 user_pref("gfx.webrender.all", true);
 user_pref("gfx.webrender.compositor", true);
+user_pref("gfx.webrender.compositor.force-enabled", true)
 user_pref("gfx.canvas.accelerated", true);
 user_pref("dom.mutation-events.cssom.disabled", true)
 user_pref("nglayout.initialpaint.delay", 0)
 user_pref("nglayout.initialpaint.delay_in_oopif", 0)
 user_pref("browser.urlbar.delay", 0)
+user_pref("gfx.webrender.multithreading", true)
+user_pref("media.av1.new-thread-count-strategy", true)
+user_pref("media.gmp.decoder.multithreaded", true)
+user_pref("media.gmp.encoder.multithreaded", true)
+user_pref("dom.mutation_events.enabled", false)
 
 /** IMPROVE PRIVACY ***/
 user_pref("privacy.donottrackheader.enabled", true);
@@ -341,6 +351,11 @@ user_pref("browser.newtabpage.activity-stream.showSponsored", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.tabs.firefox-view", false);
 user_pref("browser.urlbar.suggest.pocket", false);
+user_pref("browser.newtabpage.activity-stream.improvesearch.topSiteSearchShortcuts.searchEngines", "")
+user_pref("signon.firefoxRelay.base_url", "data:;")
+user_pref("signon.firefoxRelay.feature", "unavailable")
+user_pref("identity.fxaccounts.toolbar.enabled", false)
+user_pref("extensions.pocket.showHome", false)
 
 /*** DEVELOPMENT ***/
 user_pref("devtools.command-button-measure.enabled", true)
@@ -370,6 +385,9 @@ user_pref("font.default.x-western", "sans-serif");
 user_pref("doh-rollout.provider-list", '[{"UIName":"NextDNS","uri":"https://dns.nextdns.io/"},{"UIName":"AhaDNS","uri":"https://blitz.ahadns.com/"},{"UIName":"Cloudflare","uri":"https://mozilla.cloudflare-dns.com/dns-query"},{"UIName":"Google","uri":"https://dns.google/dns-query"},{"UIName":"Quad9","uri":"https://dns.quad9.net/dns-query"},{"UIName":"OpenDNS","uri":"https://doh.opendns.com"},{"UIName":"IIJ (Japan)","uri":"https://public.dns.iij.jp/dns-query"},{"UIName":"CIRA (Canada)","uri":"https://https://canadianshield.cira.ca/dns-query"},{"UIName":"DNS.SB (Germany)","uri":"https://doh.dns.sb"},{"UIName":"Andrews & Arnold (UK)","uri":"https://dns.aa.net.uk/dns-query"}]');
 user_pref("services.sync.addons.trustedSourceHostnames", "addons.mozilla.org, gnuzilla.gnu.org"); /* Trust addons from https://gnuzilla.gnu.org/mozzarella/ */
 user_pref("widget.macos.native-context-menus", true); /* Set to false if using a userChrome.css theme that changes context menus */
+user_pref("widget.gtk.rounded-bottom-corners.enabled", true)
+user_pref("gfx.webgpu.ignore-blocklist", true)
+user_pref("threads.lower_mainthread_priority_in_background.enabled", true)
 
 /** HYDRAFOX STATUS ***/
 user_pref("hydrafox.status", "present");
