@@ -392,10 +392,12 @@ user_pref("widget.macos.native-context-menus", true); /* Set to false if using a
 user_pref("widget.gtk.rounded-bottom-corners.enabled", true);
 user_pref("gfx.webgpu.ignore-blocklist", true);
 user_pref("threads.lower_mainthread_priority_in_background.enabled", true);
+user_pref("browser.theme.dark-private-windows", false);
 
 /** HYDRAFOX STATUS ***/
 user_pref("hydrafox.status", "present");
 user_pref("hydrafox.version", "1.1.1");
+user_pref("distribution.about", "Firefox with Hydrafox configuration");
 
 /** LIBREWOLF (SACRIFICE PRIVACY FOR FUNCTIONALITY) ***/
 user_pref("privacy.resistFingerprinting", false);
