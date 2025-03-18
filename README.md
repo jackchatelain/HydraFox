@@ -30,10 +30,10 @@ Make Firefox (or any Firefox-based browser) easier to use, more private, and les
 - [X] Floorp
 - [X] LibreWolf
 - [X] Waterfox
-- [X] Ghostery Private Browser
 - [X] GNU IceCat
 - [X] FireDragon (Untested)
 - [X] Midori (Untested)
+- [X] Zen Browser (Untested)
 - [ ] Pre-Firefox Quantum forks like Pale Moon and Basilisk
 - [ ] Thunderbird
 - [ ] Any Chromium-based browser (Like Google Chrome and Brave)
